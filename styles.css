@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    background-image: url('doc2.jpg'); /* Ajoute l'image à gauche */
+    background-repeat: no-repeat;
+    background-position: center; /* Positionne l'image à gauche */
+    background-size: auto 100%; /* Ajuste la taille de l'image */
+}
+
+header {
+    background: #333; /* Couleur noire avec transparence */
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+    
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: Brightness, sans-serif
+    text-align: center;
+}
+h2 {
+    color:dark; /* Dédqrinit la couleur du texte en brun */
+    
+}
+
+.service {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
